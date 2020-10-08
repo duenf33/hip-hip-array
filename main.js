@@ -116,7 +116,7 @@ for(let i = 3; i < sliceArr.length; i++){
 // Challenge 12
 // Pull the items at indices 4-6 (inclusive) from the following array using .splice (NOT .slice!), then console.log out each item from the ORIGINAL array. Note that .splice DOES change the original array.
 const dinosaurs = ['Velociraptor', 'T-Rex', 'Stegosaurus', 'Triceratops', 'Dimetrodon', 'Allosaur', 'Spinosaurus', 'Gigantosaur']
-dinosaurs.splice(6, 4);
+dinosaurs.splice(4,6);
 console.log(dinosaurs);
 
 
@@ -133,3 +133,5 @@ console.log(dinosaurs);
 // Use .concat to combine the following two arrays into a NEW array you make (.concat RETURNS an array). Then console.log out each value of that new array individually. Now console.log both the primaries and secondaries arrays, noting that .concat does NOT mutate the original arrays.
 const primaries = ['red', 'yellow', 'blue'];
 const secondaries = ['orange', 'green', 'purple'];
+const concat = primaries + ',' + secondaries;
+console.log(concat);
